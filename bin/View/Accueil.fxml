@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="698.0" style="-fx-background-color: #8FBC8F;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AccueilController">
+   <children>
+      <ImageView fitHeight="356.0" fitWidth="478.0" layoutX="171.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Images/nature.png" />
+         </image>
+      </ImageView>
+      <Label blendMode="COLOR_BURN" layoutX="214.0" layoutY="42.0" text="E-Environnement">
+         <font>
+            <Font name="Serif Regular" size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="bProfil" layoutX="25.0" layoutY="108.0" mnemonicParsing="false" onAction="#accederProfil" prefHeight="54.0" prefWidth="170.0" style="-fx-background-color: #006400;" text="Profil" textFill="#ffffff">
+      <font>
+            <Font name="Serif Regular" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="bInfo" layoutX="28.0" layoutY="202.0" mnemonicParsing="false" onAction="#accederInfo" prefHeight="54.0" prefWidth="169.0" style="-fx-background-color: #006400;" text="Vos informations" textFill="#ffffff">
+      <font>
+            <Font name="Serif Regular" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="bDescription" layoutX="28.0" layoutY="301.0" mnemonicParsing="false" onAction="#accederDescription" prefHeight="54.0" prefWidth="170.0" style="-fx-background-color: #006400;" text="Description" textFill="#ffffff">
+      <font>
+            <Font name="Serif Regular" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="bContact" layoutX="28.0" layoutY="405.0" mnemonicParsing="false" onAction="#accederContact" prefHeight="54.0" prefWidth="170.0" style="-fx-background-color: #006400;" text="Contactez-nous" textFill="#ffffff">
+      <font>
+            <Font name="Serif Regular" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="260.0" layoutY="459.0" text="&quot;La mauvaise herbe n'est jamais qu'une plante mal aimée.&quot;">
+         <font>
+            <Font name="Serif Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="567.0" layoutY="486.0" text="Ella Wheeler Wilcox">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="bDeconnexion" layoutX="513.0" layoutY="378.0" mnemonicParsing="false" onAction="#deconnecter" prefHeight="54.0" prefWidth="170.0" style="-fx-background-color: #006400;" text="Déconnexion" textFill="#ffffff">
+         <font>
+            <Font name="Serif Regular" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

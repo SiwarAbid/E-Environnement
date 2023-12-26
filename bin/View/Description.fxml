@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #8FBC8F;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CrudController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="198.0" layoutY="25.0" text="Description">
+               <font>
+                  <Font name="Serif Regular" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="130.0" layoutY="101.0" text="Conseils à propos de la culture des:">
+               <font>
+                  <Font name="Serif Italic" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="bAnimal" layoutX="222.0" layoutY="230.0" mnemonicParsing="false" onAction="#actionAnimal" prefHeight="42.0" prefWidth="105.0" text="Animaux" />
+            <Button fx:id="bPlante" layoutX="222.0" layoutY="157.0" mnemonicParsing="false" onAction="#actionPlante" prefHeight="42.0" prefWidth="105.0" text="Plantes" />
+          <!--    <Button fx:id="bRetour" layoutX="30.0" layoutY="324.0" mnemonicParsing="false" onAction="#actionRetour" prefHeight="51.0" prefWidth="27.0" style="-fx-background-radius: 50em; -fx-background-color: #006400;">
+               <graphic>
+                  <ImageView fitHeight="53.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Users/abids/Pictures/fleche-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>-->
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Images/image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="48.0" layoutX="122.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Images/image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="89.0" layoutX="33.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Images/image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="133.0" layoutX="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Images/image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="436.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Images/image.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

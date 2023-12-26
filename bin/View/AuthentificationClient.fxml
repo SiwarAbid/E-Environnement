@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #8FBC8F;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AuthentificationClientController">
+   <children>
+      <Button fx:id="bConnecter" layoutX="53.0" layoutY="219.0" mnemonicParsing="false" onAction="#actionConnecter" prefHeight="59.0" prefWidth="135.0" style="-fx-background-color: #006400;" text="Se connecter" textFill="WHITE">
+         <font>
+            <Font name="Serif Regular" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="354.0" fitWidth="193.0" layoutX="189.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Images/branch.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="273.0" fitWidth="415.0" layoutX="104.0" layoutY="-65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Images/welcome.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="bInscrir" layoutX="404.0" layoutY="219.0" mnemonicParsing="false" onAction="#actionInscrire" prefHeight="59.0" prefWidth="135.0" style="-fx-background-color: #006400;" text="S'inscrire" textFill="#fff5f5">
+         <font>
+            <Font name="Serif Regular" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="394.0" layoutY="154.0" text="S'inscrire gratuitement">
+         <font>
+            <Font name="Serif Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="124.0" text="Avez vous déjà un compte !">
+         <font>
+            <Font name="Serif Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="154.0" text="Connectez ici ">
+         <font>
+            <Font name="Serif Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="393.0" layoutY="124.0" text="Pas encore inscrit-e?">
+         <font>
+            <Font name="Serif Regular" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
